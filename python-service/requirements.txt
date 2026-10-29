@@ -1,0 +1,42 @@
+# ── Core Framework ──
+fastapi==0.135.2
+uvicorn==0.42.0
+python-dotenv==1.0.1
+
+# ── Networking / HTTP ──
+httpx==0.28.1
+aiohttp==3.13.3
+anyio==4.13.0
+requests==2.33.0
+
+# ── LLM (Gemini + OpenAI) ──
+google-genai
+openai
+
+# ── TTS (Text-to-Speech) ──
+gTTS==2.5.4
+pydub==0.25.1
+
+# ── Video Generation ──
+manim
+
+# ── ML / Embeddings (for RAG) ──
+sentence-transformers
+torch
+transformers
+safetensors
+
+# ── Vector DB ──
+qdrant-client==1.17.1
+
+# ── Data Processing ──
+numpy
+pandas
+scikit-learn
+
+# ── Utilities ──
+pydantic==2.12.5
+PyYAML==6.0.3
+tqdm
+regex
+setuptools
